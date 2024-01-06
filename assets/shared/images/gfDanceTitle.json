@@ -1,8 +1,8 @@
 {	
-	"titlex":-150,
-	"titley":-100,
+	"titlex":0,
+	"titley":0,
 	"startx":100,
-	"starty":576,
+	"starty":0,
 	"gfx":512,
 	"gfy":40,
 	"backgroundSprite":"titleBack",
