@@ -61,6 +61,8 @@ class FlashingState extends MusicBeatState
 						}
 					});
 				} else {
+					ClientPrefs.data.flashing = true;
+					ClientPrefs.saveSettings();
 					FlxG.sound.play(Paths.sound('cancelMenu'));
 					FlxFlicker.flicker(warnText, 1, 0.1, false, true, function(flk:FlxFlicker) {
 						new FlxTimer().start(0.5, function (tmr:FlxTimer) {
