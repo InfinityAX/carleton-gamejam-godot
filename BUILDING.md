@@ -83,7 +83,7 @@ It depends on your Operating System, for Windows, run `setup-windows.bat`, for a
 
 sit back, relax, wait for haxelib to do its magic, and once everything is done, run
 
-`lime test <platform>`
+`haxelib run lime test <platform>`
 
 where `<platform>` gets replaced with `windows`, `linux`, or `mac`
 
@@ -105,3 +105,4 @@ To fix that, install the `g++` package for your Linux Distro, names for said pac
 e.g: Fedora is `gcc-c++`, Gentoo is `sys-devel/gcc`, and so on.
 
 ---
+
