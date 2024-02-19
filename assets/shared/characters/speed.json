@@ -1,0 +1,122 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				1,
+				-9
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "speedidle",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-5,
+				19
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "speedup"
+		},
+		{
+			"offsets": [
+				7,
+				-32
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "speeddown"
+		},
+		{
+			"offsets": [
+				43,
+				-7
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "speedleft"
+		},
+		{
+			"offsets": [
+				132,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "speedmissup"
+		},
+		{
+			"offsets": [
+				131,
+				4
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "speedmissdown"
+		},
+		{
+			"offsets": [
+				-33,
+				-1
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "speedright"
+		},
+		{
+			"offsets": [
+				118,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "speedmissright"
+		},
+		{
+			"offsets": [
+				130,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "speedmissleft"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/speed",
+	"position": [
+		-240,
+		110
+	],
+	"healthicon": "speed",
+	"flip_x": true,
+	"healthbar_colors": [
+		128,
+		90,
+		69
+	],
+	"camera_position": [
+		60,
+		50
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

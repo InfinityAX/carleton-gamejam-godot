@@ -1,9 +1,11 @@
 {
 	"storyName": "",
+	"difficulties": "Hard",
 	"hideFreeplay": false,
 	"weekBackground": "",
 	"weekBefore": "tutorial",
 	"startUnlocked": true,
+	"hideStoryMode": true,
 	"weekCharacters": [
 		"",
 		"",
@@ -12,7 +14,7 @@
 	"songs": [
 		[
 			"confronting-yourself",
-			"bf",
+			"speed",
 			[
 				255,
 				255,
@@ -20,6 +22,5 @@
 			]
 		]
 	],
-	"hideStoryMode": true,
 	"weekName": "Tutorial"
 }
