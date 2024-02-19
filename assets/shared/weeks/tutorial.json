@@ -1,25 +1,25 @@
 {
 	"storyName": "",
 	"hideFreeplay": false,
-	"weekBackground": "stage",
+	"weekBackground": "",
 	"weekBefore": "tutorial",
 	"startUnlocked": true,
 	"weekCharacters": [
 		"",
-		"bf",
-		"gf"
+		"",
+		""
 	],
 	"songs": [
 		[
 			"confronting-yourself",
-			"gf",
+			"bf",
 			[
-				165,
-				0,
-				77
+				255,
+				255,
+				255
 			]
 		]
 	],
-	"hideStoryMode": false,
+	"hideStoryMode": true,
 	"weekName": "Tutorial"
 }

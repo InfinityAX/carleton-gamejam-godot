@@ -8154,7 +8154,7 @@
 				"bpm": 120
 			}
 		],
-		"player3": null,
+		"player3": "gf",
 		"isHey": false,
 		"cutsceneType": "none",
 		"song": "confronting yourself",
