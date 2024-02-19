@@ -2,141 +2,77 @@
 	"animations": [
 		{
 			"offsets": [
-				-9,
-				10
+				-313,
+				441
 			],
 			"loop": false,
-			"anim": "singLEFT",
 			"fps": 24,
-			"name": "Dad Sing Note LEFT",
-			"indices": []
-		},
-		{
-			"offsets": [
-				0,
-				-30
-			],
-			"loop": false,
-			"anim": "singDOWN",
-			"fps": 24,
-			"name": "Dad Sing Note DOWN",
-			"indices": []
-		},
-		{
-			"offsets": [
-				-6,
-				50
-			],
-			"loop": false,
-			"anim": "singUP",
-			"fps": 24,
-			"name": "Dad Sing Note UP",
-			"indices": []
-		},
-		{
-			"offsets": [
-				0,
-				27
-			],
-			"loop": false,
-			"anim": "singRIGHT",
-			"fps": 24,
-			"name": "Dad Sing Note RIGHT",
-			"indices": []
-		},
-		{
-			"offsets": [
-				0,
-				0
-			],
-			"loop": false,
 			"anim": "idle",
-			"fps": 24,
-			"name": "Dad idle dance",
-			"indices": []
+			"indices": [],
+			"name": "benidle"
 		},
 		{
 			"offsets": [
-				0,
-				0
+				-319,
+				441
 			],
-			"loop": true,
-			"fps": 24,
-			"anim": "idle-loop",
-			"indices": [
-				10,
-				11,
-				12,
-				12
-			],
-			"name": "Dad idle dance"
+			"loop": false,
+			"fps": 12,
+			"anim": "singUP",
+			"indices": [],
+			"name": "benup"
 		},
 		{
 			"offsets": [
-				-9,
-				10
+				-319,
+				441
 			],
-			"loop": true,
-			"fps": 24,
-			"anim": "singLEFT-loop",
-			"indices": [
-				12,
-				13,
-				14,
-				15
-			],
-			"name": "Dad Sing Note LEFT"
+			"loop": false,
+			"fps": 12,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "bendown"
 		},
 		{
 			"offsets": [
-				0,
-				27
+				-319,
+				441
 			],
-			"loop": true,
-			"fps": 24,
-			"anim": "singRIGHT-loop",
-			"indices": [
-				15,
-				16,
-				17,
-				18
-			],
-			"name": "Dad Sing Note RIGHT"
+			"loop": false,
+			"fps": 12,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "benleft"
 		},
 		{
 			"offsets": [
-				-6,
-				50
+				-319,
+				441
 			],
-			"loop": true,
-			"fps": 24,
-			"anim": "singUP-loop",
-			"indices": [
-				56,
-				57,
-				58,
-				59
-			],
-			"name": "Dad Sing Note UP"
+			"loop": false,
+			"fps": 12,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "benright"
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/DADDY_DEAREST",
 	"position": [
-		0,
-		0
+		-700,
+		500
 	],
-	"healthicon": "dad",
+	"healthicon": "icon-dad",
 	"flip_x": false,
 	"healthbar_colors": [
-		175,
-		102,
-		206
+		219,
+		197,
+		165
 	],
 	"camera_position": [
-		0,
-		0
+		340,
+		-370
 	],
-	"sing_duration": 6.1,
+	"sing_duration": 4,
 	"scale": 1
 }
