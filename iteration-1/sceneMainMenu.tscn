@@ -1,6 +1,8 @@
-[gd_scene load_steps=2 format=3 uid="uid://dhtu5xa133m8o"]
+[gd_scene load_steps=4 format=3 uid="uid://dhtu5xa133m8o"]
 
 [ext_resource type="Texture2D" uid="uid://d7aonniaiqj" path="res://spriteNullptrLogo.png" id="1_g3bfp"]
+[ext_resource type="Texture2D" uid="uid://5buo1lpyh8ul" path="res://spriteBackgroundBlack.png" id="1_yt64a"]
+[ext_resource type="Script" path="res://nullptr_logo.gd" id="3_cykhu"]
 
 [node name="Control" type="Control"]
 layout_mode = 3
@@ -10,6 +12,13 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 
+[node name="SpriteBackgroundBlack" type="Sprite2D" parent="."]
+position = Vector2(540, 360)
+scale = Vector2(1080, 720)
+texture = ExtResource("1_yt64a")
+
 [node name="NullptrLogo" type="Sprite2D" parent="."]
+z_index = 1
 position = Vector2(540, 360)
 texture = ExtResource("1_g3bfp")
+script = ExtResource("3_cykhu")
