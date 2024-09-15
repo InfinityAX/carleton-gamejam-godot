@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3 uid="uid://dhtu5xa133m8o"]
+
+[ext_resource type="Texture2D" uid="uid://d7aonniaiqj" path="res://spriteNullptrLogo.png" id="1_g3bfp"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="NullptrLogo" type="Sprite2D" parent="."]
+position = Vector2(540, 360)
+texture = ExtResource("1_g3bfp")
