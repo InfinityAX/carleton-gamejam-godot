@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://5buo1lpyh8ul"
-path="res://.godot/imported/spriteBackgroundBlack.png-1c5b86ab53a843635f23bb4a21e96a69.ctex"
+uid="uid://d7aonniaiqj"
+path="res://.godot/imported/spriteNullptrLogo.png-6fdf435d9a652d1fadb500d573ad50a5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spriteBackgroundBlack.png"
-dest_files=["res://.godot/imported/spriteBackgroundBlack.png-1c5b86ab53a843635f23bb4a21e96a69.ctex"]
+source_file="res://splash/spriteNullptrLogo.png"
+dest_files=["res://.godot/imported/spriteNullptrLogo.png-6fdf435d9a652d1fadb500d573ad50a5.ctex"]
 
 [params]
 

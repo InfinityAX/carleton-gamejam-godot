@@ -22,3 +22,9 @@ boot_splash/use_filter=false
 window/size/viewport_width=1080
 window/size/viewport_height=720
 window/stretch/mode="viewport"
+
+[file_customization]
+
+folder_colors={
+"res://gameplay/": "teal"
+}
