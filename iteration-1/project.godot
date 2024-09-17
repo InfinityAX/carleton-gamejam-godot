@@ -11,7 +11,6 @@ config_version=5
 [application]
 
 config/name="Iteration 1"
-run/main_scene="res://sceneMainMenu.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
 boot_splash/show_image=false
 boot_splash/fullsize=false
@@ -26,5 +25,7 @@ window/stretch/mode="viewport"
 [file_customization]
 
 folder_colors={
-"res://gameplay/": "teal"
+"res://gameplay/": "teal",
+"res://splash/": "orange",
+"res://sprites/": "pink"
 }

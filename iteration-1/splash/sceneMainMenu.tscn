@@ -1,8 +1,8 @@
 [gd_scene load_steps=4 format=3 uid="uid://dhtu5xa133m8o"]
 
-[ext_resource type="Texture2D" uid="uid://d7aonniaiqj" path="res://spriteNullptrLogo.png" id="1_g3bfp"]
-[ext_resource type="Texture2D" uid="uid://5buo1lpyh8ul" path="res://spriteBackgroundBlack.png" id="1_yt64a"]
-[ext_resource type="Script" path="res://nullptr_logo.gd" id="3_cykhu"]
+[ext_resource type="Texture2D" uid="uid://d7aonniaiqj" path="res://splash/spriteNullptrLogo.png" id="1_g3bfp"]
+[ext_resource type="Texture2D" uid="uid://5buo1lpyh8ul" path="res://splash/spriteBackgroundBlack.png" id="1_yt64a"]
+[ext_resource type="Script" path="res://splash/nullptr_logo.gd" id="3_lbg7c"]
 
 [node name="Control" type="Control"]
 layout_mode = 3
@@ -21,4 +21,4 @@ texture = ExtResource("1_yt64a")
 z_index = 1
 position = Vector2(540, 360)
 texture = ExtResource("1_g3bfp")
-script = ExtResource("3_cykhu")
+script = ExtResource("3_lbg7c")

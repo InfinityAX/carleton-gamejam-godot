@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://bprg3igj3ims4"]
+
+[ext_resource type="Texture2D" uid="uid://ck57guycdm0pw" path="res://sprites/witch_proto.png" id="1_6mu5i"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ymspr"]
+size = Vector2(136, 161)
+
+[node name="Player" type="CharacterBody2D"]
+
+[node name="HitBox" type="CollisionShape2D" parent="."]
+position = Vector2(-2, 1.5)
+shape = SubResource("RectangleShape2D_ymspr")
+
+[node name="Sprite" type="Sprite2D" parent="."]
+texture = ExtResource("1_6mu5i")
