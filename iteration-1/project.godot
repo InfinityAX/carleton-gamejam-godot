@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Iteration 1"
-run/main_scene="res://sceneMainMenu.tscn"
+run/main_scene="res://splash/sceneSplash.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
 boot_splash/show_image=false
 boot_splash/fullsize=false
