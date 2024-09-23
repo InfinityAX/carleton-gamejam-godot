@@ -26,6 +26,7 @@ window/stretch/mode="viewport"
 
 folder_colors={
 "res://gameplay/": "teal",
+"res://gameplay/sprites/": "pink",
 "res://splash/": "orange",
-"res://sprites/": "pink"
+"res://tools/": "purple"
 }

@@ -16,7 +16,6 @@
   <text style="cursor: move;" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="24" id="svg_16" y="136" x="1009" stroke-width="0" stroke="#000" fill="#000000">Familiar?</text>
   <text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="24" id="svg_17" y="119" x="523" stroke-width="0" stroke="#000" fill="#000000">Maybe backstabbing?</text>
   <polyline stroke-linecap="round" id="svg_24" points="1379,208 1378,208 1377,208 " stroke-width="0" stroke="#000" fill="none"/>
-  <polyline stroke-linecap="round" id="svg_26" points="1227,391 1228,391 " stroke-width="0" stroke="#000" fill="none"/>
   <g transform="rotate(-29.4464, 486.5, 247.432)" id="svg_31">
    <path d="m412.80757,343.12652c0,-1.52006 1.24052,-6.17348 4.51291,-15.20059c2.78641,-7.68632 5.01229,-15.54922 7.52151,-21.28083c2.1942,-5.01214 5.28462,-6.98314 7.52151,-10.64041c2.50096,-4.08894 5.83955,-10.75105 10.53012,-18.24071c2.90035,-4.6312 6.01721,-10.64041 12.03442,-19.76077c6.01721,-9.12035 13.53872,-18.24071 19.55593,-25.841c6.01721,-7.6003 12.46191,-14.79193 19.55593,-22.80089c6.42395,-7.25243 9.96646,-14.30926 16.54733,-19.76077c4.19449,-3.47467 6.01721,-6.08024 7.52151,-7.6003c1.5043,-1.52006 4.51291,-4.56018 9.02581,-7.6003l1.5043,-1.52006l1.5043,0" id="svg_29" stroke="#000" fill="none"/>
    <path d="m505.81743,155.31479c1.69922,0 3.39844,0 8.4961,0c6.79688,0 11.89454,-1.46376 18.69142,-1.46376c5.09766,0 11.89454,-1.46376 16.9922,-1.46376c3.39844,0 10.19532,-1.46376 10.19532,0c0,1.46376 -1.42708,1.48266 -1.69922,2.92752c-1.72141,9.13809 -5.09766,17.56513 -6.79688,24.88393l-1.69922,4.39128l0,1.46376l0,1.46376" id="svg_30" stroke="#000" fill="none"/>
@@ -37,5 +36,40 @@
   <path d="m1009.5,109.5c-1,0 -2,0 -3,0c-1,0 -3,0 -5,0c-2,0 -3,0 -4,0c-2,0 -3.69342,0.4588 -5,1c-0.92389,0.38268 -1.29291,0.29289 -2,1c-0.70709,0.70711 -1.29291,0.29289 -2,1c-0.70709,0.70711 -1.4588,1.69344 -2,3c-0.38269,0.92388 -1,2 -1,3c0,1 -1,2 -1,3c0,1 0.38269,2.07612 0,3c-0.5412,1.30656 -1.29291,1.29289 -2,2c-0.70709,0.70711 -1.29291,1.29289 -2,2c-0.70709,0.70711 -1.18604,1.69255 -3,3c-1.14728,0.8269 -1,2 -2,2c-1,0 -1.29291,0.29289 -2,1c-0.70709,0.70711 -1.07611,0.61731 -2,1c-1.30658,0.5412 -2,1 -3,1c-1,0 -2,0 -1,0c1,0 1,1 2,1c1,0 2.07611,-0.38269 3,0c1.30658,0.5412 3.29291,0.29289 4,1c0.70709,0.70711 1,1 2,1c1,0 1.29291,0.29289 2,1c0.70709,0.70711 1.29291,0.29289 2,1c0.70709,0.70711 0.29291,1.29289 1,2c0.70709,0.70711 1.29291,0.29289 2,1c0.70709,0.70711 0,2 0,3c0,1 0,2 0,3c0,1 0.38269,2.07613 0,3c-0.5412,1.30656 -1,2 -1,3c0,1 -1,1 -1,2c0,1 0,2 0,3c0,1 0,2 0,3c0,1 0.4588,1.69344 1,3c0.38269,0.92387 0.61731,1.07613 1,2c0.5412,1.30656 1.29291,1.29289 2,2c0.70709,0.70711 1.29291,0.29289 2,1c0.70709,0.70711 1.29291,0.29289 2,1c0.70709,0.70711 1.29291,0.29289 2,1c0.70709,0.70711 1.29291,0.29289 2,1c0.70709,0.70711 1,1 2,1c1,0 1,1 2,1c2,0 3,0 4,0c1,0 2,0 3,0l1,0" id="svg_50" stroke-width="2" stroke="#000" fill="none"/>
   <text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="24" id="svg_51" y="770.5" x="185.5" stroke-width="0" stroke="#000" fill="#000000">Platforming sections?</text>
   <text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="24" id="svg_52" y="805" x="136.5" stroke-width="0" stroke="#000" fill="#000000">Some kind of minigame maybe?</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="24" id="svg_53" y="332" x="1392.5" stroke-width="0" stroke="#000" fill="#000000">Game</text>
+  <line stroke-linecap="round" id="svg_55" y2="387" x2="1619.5" y1="335" x1="1462.5" stroke="#000" fill="none"/>
+  <line stroke-linecap="round" id="svg_56" y2="492" x2="1458.5" y1="352" x1="1426.5" stroke="#000" fill="none"/>
+  <text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="24" id="svg_58" y="397" x="1628.5" stroke-width="0" stroke="#000" fill="#000000">Gameplay</text>
+  <line stroke-linecap="round" id="svg_61" y2="496.47621" x2="2014.83333" y1="509.00001" x1="1763.5" stroke="#000" fill="none"/>
+  <text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="24" id="svg_64" y="521" x="1406.5" stroke-width="0" stroke="#000" fill="#000000">Interface</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="24" stroke-width="0" id="svg_67" y="520" x="1676.5" stroke="#000" fill="#000000">Controls</text>
+  <line stroke-linecap="round" id="svg_68" y2="410" x2="1641.5" y1="453" x1="1594.5" stroke="#000" fill="none"/>
+  <line transform="rotate(-75.5294, 1874.39, 438.424)" stroke-linecap="round" id="svg_69" y2="292.49905" x2="1886.50982" y1="584.34901" x1="1862.27523" stroke="#000" fill="none"/>
+  <line stroke-linecap="round" id="svg_70" y2="476" x2="1555.5" y1="501" x1="1519.5" stroke="#000" fill="none"/>
+  <line stroke-linecap="round" id="svg_71" y2="513" x2="1668.5" y1="515" x1="1504.5" stroke="#000" fill="none"/>
+  <text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="24" id="svg_72" y="470" x="1549.5" stroke-width="0" stroke="#000" fill="#000000">HUD</text>
+  <line id="svg_73" y2="652" x2="1554.5" y1="552" x1="1457.5" stroke="#000" fill="none"/>
+  <text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="24" id="svg_74" y="663" x="1572.5" stroke-width="0" stroke="#000" fill="#000000">Menus</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="24" id="svg_75" y="501.80953" x="2019.21429" stroke-width="0" stroke="#000" fill="#000000">Player</text>
+  <line id="svg_76" y2="207" x2="1686.5" y1="371" x1="1687.5" stroke="#000" fill="none"/>
+  <text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="24" id="svg_77" y="191" x="1662.5" stroke-width="0" stroke="#000" fill="#000000">Map</text>
+  <line stroke-linecap="round" id="svg_79" y2="183.14289" x2="1858.40494" y1="183.14289" x1="1731.73826" stroke="#000" fill="none"/>
+  <text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="24" stroke-width="0" id="svg_80" y="191.71432" x="1879.35732" stroke="#000" fill="#000000">Floor</text>
+  <line transform="rotate(0.288918, 2006.98, 185.048)" stroke-linecap="round" id="svg_81" y2="184.09527" x2="2061.26209" y1="186.00003" x1="1952.69066" stroke="#000" fill="none"/>
+  <text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="24" stroke-width="0" id="svg_82" y="192.6667" x="2075.54781" stroke="#000" fill="#000000">Tiles</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="24" stroke-width="0" id="svg_83" y="81.23812" x="1859.35732" stroke="#000" fill="#000000">Generator</text>
+  <line stroke-linecap="round" id="svg_84" y2="86.95241" x2="1834.59541" y1="166.95241" x1="1696.50017" stroke="#000" fill="none"/>
+  <line stroke-linecap="round" id="svg_85" y2="166.00003" x2="2086.024" y1="80.28574" x1="1964.11923" stroke="#000" fill="none"/>
+  <line stroke-linecap="round" id="svg_86" y2="201.23813" x2="2094.59542" y1="481.23814" x1="2071.73826" stroke="#000" fill="none"/>
+  <text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="24" stroke-width="0" id="svg_87" y="285.04766" x="1801.26208" stroke="#000" fill="#000000">Enemies</text>
+  <line stroke-linecap="round" id="svg_88" y2="302.19051" x2="1823.16684" y1="371.71433" x1="1726.97636" stroke="#000" fill="none"/>
+  <line stroke-linecap="round" id="svg_89" y2="200.28575" x2="2064.11924" y1="270.76194" x1="1890.78589" stroke="#000" fill="none"/>
+  <text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="24" stroke-width="0" id="svg_91" y="313.61909" x="1974.59545" stroke="#000" fill="#000000">Health</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="24" stroke-width="0" id="svg_92" y="391.71433" x="1889.83354" stroke="#000" fill="#000000">Abilities</text>
+  <line stroke-linecap="round" id="svg_93" y2="405.04766" x2="1937.45259" y1="479.33338" x1="2032.69069" stroke="#000" fill="none"/>
+  <line stroke-linecap="round" id="svg_94" y2="365.04766" x2="1911.7383" y1="298.38099" x1="1862.21449" stroke="#000" fill="none"/>
+  <line stroke-linecap="round" id="svg_95" y2="302.19051" x2="1962.21449" y1="283.14289" x1="1888.88115" stroke="#000" fill="none"/>
+  <line stroke-linecap="round" id="svg_96" y2="326.00004" x2="2019.35735" y1="481.23815" x1="2053.64307" stroke="#000" fill="none"/>
+  <line stroke-linecap="round" id="svg_97" y2="324.09528" x2="1997.45259" y1="370.76195" x1="1971.7383" stroke="#000" fill="none"/>
  </g>
 </svg>

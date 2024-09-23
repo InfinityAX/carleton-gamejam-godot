@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ck57guycdm0pw"
-path="res://.godot/imported/witch_proto.png-dfb09477a0583da92fc78c2762282f6a.ctex"
+uid="uid://2hxphfr5syih"
+path="res://.godot/imported/tile.png-80498e04e213ff2a4bdc60d53a4f4aed.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/witch_proto.png"
-dest_files=["res://.godot/imported/witch_proto.png-dfb09477a0583da92fc78c2762282f6a.ctex"]
+source_file="res://gameplay/sprites/tile.png"
+dest_files=["res://.godot/imported/tile.png-80498e04e213ff2a4bdc60d53a4f4aed.ctex"]
 
 [params]
 
