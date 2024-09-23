@@ -2,7 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://5buo1lpyh8ul" path="res://splash/spriteBackgroundBlack.png" id="1_pcwsb"]
 [ext_resource type="Texture2D" uid="uid://d7aonniaiqj" path="res://splash/spriteNullptrLogo.png" id="2_qobqg"]
-[ext_resource type="Script" path="res://splash/nullptr_logo.gd" id="3_lhl5r"]
+[ext_resource type="Script" path="res://splash/scriptNullptrLogo.gd" id="3_lhl5r"]
 
 [node name="Control" type="Control"]
 layout_mode = 3
