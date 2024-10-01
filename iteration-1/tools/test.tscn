@@ -1,3 +1,15 @@
-[gd_scene format=3 uid="uid://ccks044u7777s"]
+[gd_scene load_steps=3 format=3 uid="uid://ccks044u7777s"]
+
+[ext_resource type="PackedScene" uid="uid://bprg3igj3ims4" path="res://gameplay/scenes/playercharacter.tscn" id="1_qqk7p"]
+[ext_resource type="PackedScene" uid="uid://cxq6civ5bwpev" path="res://gameplay/scenes/tile.tscn" id="1_uucil"]
 
 [node name="Test" type="Node2D"]
+
+[node name="Tile" parent="." instance=ExtResource("1_uucil")]
+
+[node name="PlayerCharacter" parent="." instance=ExtResource("1_qqk7p")]
+
+[node name="RemoteTransform2D" type="RemoteTransform2D" parent="PlayerCharacter"]
+remote_path = NodePath("../../Camera2D")
+
+[node name="Camera2D" type="Camera2D" parent="."]
