@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://bprg3igj3ims4"]
 
 [ext_resource type="Texture2D" uid="uid://ck57guycdm0pw" path="res://gameplay/sprites/witch_proto.png" id="1_6mu5i"]
-[ext_resource type="Script" path="res://gameplay/scenes/playercharacter.gd" id="1_jwpfd"]
+[ext_resource type="Script" path="res://gameplay/scenes/scripts/playercharacter.gd" id="1_jwpfd"]
 [ext_resource type="PackedScene" uid="uid://dc1r5kfo7rsjt" path="res://tools/marker.tscn" id="3_spcs3"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ymspr"]

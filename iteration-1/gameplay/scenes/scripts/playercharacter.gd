@@ -9,11 +9,17 @@ var time_since_dash = 1
 var dash_duration = 0.2
 var is_dashing:bool = false
 
+
+func _init():
+	add_to_group("camera_targets", true)
+
+
 func _ready() -> void:
 	if DEBUG:
 		$Marker.visible = true
 	else:
 		$Marker.visible = false
+
 
 func _physics_process(delta: float) -> void:
 	# Get the input direction and handle the movement/deceleration.
@@ -29,12 +35,13 @@ func _physics_process(delta: float) -> void:
 			velocity = direction.normalized() * DASH_VELOCITY
 
 	if not is_dashing:
-		velocity = direction * SPEED
+		velocity = direction * SPEED if direction != Vector2.ZERO else velocity - velocity/5
 	
 	if DEBUG:
 		$Marker.position = velocity/3
 	
 	move_and_slide()
+
 
 func _process(delta: float) -> void:
 	if time_since_dash < dash_cooldown_length:
@@ -42,7 +49,8 @@ func _process(delta: float) -> void:
 		
 	if time_since_dash >= dash_duration:
 		is_dashing = false
-	
+
+
 func can_dash() -> bool:
 	if time_since_dash >= dash_cooldown_length:
 		return true
