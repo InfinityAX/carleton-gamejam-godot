@@ -9,8 +9,10 @@ func _ready() -> void:
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
+	# Move camera to target's position
 	position = target.position
 
 
+# Set a new target for the camera
 func set_target(new_target: Node2D):
 	target = new_target

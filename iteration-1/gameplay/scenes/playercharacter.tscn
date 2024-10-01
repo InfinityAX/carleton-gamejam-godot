@@ -10,6 +10,7 @@ size = Vector2(136, 161)
 [node name="Player" type="CharacterBody2D"]
 motion_mode = 1
 script = ExtResource("1_jwpfd")
+DEBUG = null
 
 [node name="HitBox" type="CollisionShape2D" parent="."]
 position = Vector2(-2, 1.5)
