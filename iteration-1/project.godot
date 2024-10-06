@@ -30,8 +30,10 @@ window/stretch/mode="viewport"
 [file_customization]
 
 folder_colors={
-"res://gameplay/": "teal",
+"res://gameplay/": "blue",
+"res://gameplay/scenes/": "blue",
 "res://gameplay/sprites/": "pink",
+"res://mainMenu/": "orange",
 "res://splash/": "orange",
 "res://tools/": "purple"
 }
