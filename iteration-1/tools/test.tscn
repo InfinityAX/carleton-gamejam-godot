@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=3 uid="uid://ccks044u7777s"]
+
+[ext_resource type="PackedScene" uid="uid://bprg3igj3ims4" path="res://gameplay/scenes/playercharacter.tscn" id="1_qqk7p"]
+[ext_resource type="PackedScene" uid="uid://cxq6civ5bwpev" path="res://gameplay/scenes/tile.tscn" id="1_uucil"]
+[ext_resource type="Script" path="res://tools/Scripts/camera.gd" id="3_3p5cs"]
+
+[node name="Test" type="Node2D"]
+
+[node name="Tile" parent="." instance=ExtResource("1_uucil")]
+
+[node name="PlayerCharacter" parent="." instance=ExtResource("1_qqk7p")]
+DEBUG = true
+
+[node name="Camera2D" type="Camera2D" parent="." node_paths=PackedStringArray("target")]
+script = ExtResource("3_3p5cs")
+target = NodePath("../PlayerCharacter")

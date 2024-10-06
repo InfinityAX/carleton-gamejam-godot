@@ -1,0 +1,32 @@
+[gd_scene load_steps=2 format=3 uid="uid://d16qyhb1qgdul"]
+
+[ext_resource type="Script" path="res://gameplay/scenes/scripts/room.gd" id="1_udr5g"]
+
+[node name="Room" type="Node2D"]
+script = ExtResource("1_udr5g")
+
+[node name="Center" type="Node2D" parent="."]
+
+[node name="Tiles" type="Node2D" parent="."]
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Control"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Regenerate" type="Button" parent="Control/VBoxContainer"]
+layout_mode = 2
+text = "Regenerate"
+
+[node name="AddTile" type="Button" parent="Control/VBoxContainer"]
+layout_mode = 2
+text = "Add Tile"
+
+[connection signal="pressed" from="Control/VBoxContainer/Regenerate" to="." method="_on_regenerate_pressed"]
+[connection signal="pressed" from="Control/VBoxContainer/AddTile" to="." method="_on_add_tile_pressed"]
