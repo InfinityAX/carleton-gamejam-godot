@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://jbtnnig3ii4o"]
+[gd_scene load_steps=3 format=3 uid="uid://jbtnnig3ii4o"]
 
 [ext_resource type="Texture2D" uid="uid://bdypifawywnwo" path="res://mainMenu/mainMenuBackground.png" id="1_5hmjt"]
+[ext_resource type="FontFile" uid="uid://bjsxl5al8m0k3" path="res://globalShare/doctorGlitch.otf" id="2_1rama"]
 
 [node name="SceneMenu" type="Control"]
 layout_mode = 3
@@ -13,3 +14,20 @@ grow_vertical = 2
 [node name="MainMenuBackground" type="Sprite2D" parent="."]
 position = Vector2(540, 360)
 texture = ExtResource("1_5hmjt")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+clip_contents = false
+layout_mode = 0
+offset_left = 39.0
+offset_top = 148.0
+offset_right = 472.0
+offset_bottom = 279.0
+theme_override_colors/default_color = Color(0.921828, 0.43917, 0, 1)
+theme_override_fonts/normal_font = ExtResource("2_1rama")
+theme_override_font_sizes/normal_font_size = 55
+bbcode_enabled = true
+text = "[center]SHADOWS OF
+THE VOID[/center]"
+scroll_active = false
+shortcut_keys_enabled = false
+drag_and_drop_selection_enabled = false
