@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://2hxphfr5syih"
-path="res://.godot/imported/tile.png-80498e04e213ff2a4bdc60d53a4f4aed.ctex"
+uid="uid://bdxyofjpsstwd"
+path="res://.godot/imported/sideLeftStepOne.png-399e935b3d61f95265c4d08bff5d111e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameplay/sprites/tile.png"
-dest_files=["res://.godot/imported/tile.png-80498e04e213ff2a4bdc60d53a4f4aed.ctex"]
+source_file="res://stages/stageMain/Witch/sideLeftStepOne.png"
+dest_files=["res://.godot/imported/sideLeftStepOne.png-399e935b3d61f95265c4d08bff5d111e.ctex"]
 
 [params]
 

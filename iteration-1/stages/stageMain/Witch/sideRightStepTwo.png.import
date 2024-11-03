@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ctgledsidnc0u"
-path="res://.godot/imported/sideLeft.png-a64d974e8655d6c389eac9fca38ad3b3.ctex"
+uid="uid://ce672fj736vjn"
+path="res://.godot/imported/sideRightStepTwo.png-2706c552395940d84b7969f573fb2170.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameplay/stageMain/Witch/sideLeft.png"
-dest_files=["res://.godot/imported/sideLeft.png-a64d974e8655d6c389eac9fca38ad3b3.ctex"]
+source_file="res://stages/stageMain/Witch/sideRightStepTwo.png"
+dest_files=["res://.godot/imported/sideRightStepTwo.png-2706c552395940d84b7969f573fb2170.ctex"]
 
 [params]
 

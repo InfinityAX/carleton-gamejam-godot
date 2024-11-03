@@ -31,14 +31,14 @@ window/stretch/mode="viewport"
 [file_customization]
 
 folder_colors={
-"res://gameplay/": "blue",
-"res://gameplay/scenes/": "blue",
-"res://gameplay/sprites/": "pink",
-"res://gameplay/stageMain/": "orange",
-"res://gameplay/stageSecretOne/": "orange",
 "res://globalShare/": "orange",
 "res://mainMenu/": "orange",
 "res://splash/": "orange",
+"res://stages/": "orange",
+"res://stages/scenes/": "blue",
+"res://stages/sprites/": "pink",
+"res://stages/stageMain/": "orange",
+"res://stages/stageSecretOne/": "orange",
 "res://tools/": "purple"
 }
 

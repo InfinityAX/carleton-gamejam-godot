@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://chta5y1h7xhpw"
-path="res://.godot/imported/standing front left step.png-207d0546b7ccb18f2271489de292c85a.ctex"
+uid="uid://2hxphfr5syih"
+path="res://.godot/imported/tile.png-bac1fcf3ac9674e164099919b1414d28.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameplay/stageMain/Witch/standing front left step.png"
-dest_files=["res://.godot/imported/standing front left step.png-207d0546b7ccb18f2271489de292c85a.ctex"]
+source_file="res://stages/sprites/tile.png"
+dest_files=["res://.godot/imported/tile.png-bac1fcf3ac9674e164099919b1414d28.ctex"]
 
 [params]
 
