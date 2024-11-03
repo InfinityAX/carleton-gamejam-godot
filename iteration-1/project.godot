@@ -31,8 +31,10 @@ window/stretch/mode="viewport"
 
 folder_colors={
 "res://gameplay/": "blue",
+"res://gameplay/mainStage/": "orange",
 "res://gameplay/scenes/": "blue",
 "res://gameplay/sprites/": "pink",
+"res://globalShare/": "orange",
 "res://mainMenu/": "orange",
 "res://splash/": "orange",
 "res://tools/": "purple"

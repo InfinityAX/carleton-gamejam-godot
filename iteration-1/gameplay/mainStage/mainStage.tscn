@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://cf3r55dhiy02d"]
+
+[ext_resource type="Script" path="res://gameplay/scenes/scripts/map.gd" id="1_eiuqk"]
+[ext_resource type="Shape2D" uid="uid://cy8bewpknpw" path="res://gameplay/mainStage/playerHitbox.tres" id="2_1d2fk"]
+
+[node name="Map" type="Node2D"]
+script = ExtResource("1_eiuqk")
+
+[node name="floorTiles" type="TileMapLayer" parent="."]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
+shape = ExtResource("2_1d2fk")
+debug_color = Color(0, 1, 0, 0.478431)
