@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" load_steps=4 format=3 uid="uid://ch3tjse4jw228"]
+
+[ext_resource type="Texture2D" uid="uid://ctgledsidnc0u" path="res://gameplay/stageMain/Witch/sideLeft.png" id="1_0pok1"]
+[ext_resource type="Texture2D" uid="uid://bdxyofjpsstwd" path="res://gameplay/stageMain/Witch/sideLeftStepOne.png" id="2_pcxgm"]
+[ext_resource type="Texture2D" uid="uid://bqe3kchn3d3np" path="res://gameplay/stageMain/Witch/sideLeftStepTwo.png" id="3_an106"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_0pok1")
+}],
+"loop": true,
+"name": &"sideLeftStand",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_pcxgm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_an106")
+}],
+"loop": true,
+"name": &"sideLeftWalk",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": true,
+"name": &"standRight",
+"speed": 1.0
+}]

@@ -10,7 +10,8 @@ config_version=5
 
 [application]
 
-config/name="Iteration 1"
+config/name="Hide or Run"
+config/version="0"
 run/main_scene="res://splash/sceneSplash.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
 boot_splash/show_image=false
@@ -19,7 +20,7 @@ boot_splash/use_filter=false
 
 [autoload]
 
-GameConfig="*res://gameConfig.gd"
+GameConfig="*res://globalShare/gameConfig.gd"
 
 [display]
 
@@ -31,9 +32,10 @@ window/stretch/mode="viewport"
 
 folder_colors={
 "res://gameplay/": "blue",
-"res://gameplay/mainStage/": "orange",
 "res://gameplay/scenes/": "blue",
 "res://gameplay/sprites/": "pink",
+"res://gameplay/stageMain/": "orange",
+"res://gameplay/stageSecretOne/": "orange",
 "res://globalShare/": "orange",
 "res://mainMenu/": "orange",
 "res://splash/": "orange",

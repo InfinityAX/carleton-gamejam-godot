@@ -1,11 +1,10 @@
 extends CharacterBody2D
 
-# Debug flag for visual aids
-@export var DEBUG = false
 
 # Character constants
 const SPEED = 500.0
 const DASH_VELOCITY = 1200.0
+
 
 # Dash properties
 var dash_cooldown_length = 1
@@ -16,10 +15,7 @@ var is_dashing:bool = false
 
 # Called when the scene enters the tree for the first time
 func _ready() -> void:
-	if DEBUG:
-		$Marker.visible = true
-	else:
-		$Marker.visible = false
+	pass
 
 
 # Fixed-rate physics processing
@@ -41,9 +37,6 @@ func _physics_process(delta: float) -> void:
 	if not is_dashing:
 		velocity = direction * SPEED if direction != Vector2.ZERO else velocity - velocity/5
 	
-	# Update marker visual aid
-	if DEBUG:
-		$Marker.position = velocity/3
 	
 	# Apply velocity to player body
 	move_and_slide()
