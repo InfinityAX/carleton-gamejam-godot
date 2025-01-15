@@ -12,8 +12,21 @@ config_version=5
 
 config/name="Echo Rat"
 config/features=PackedStringArray("4.3", "Forward Plus")
-config/icon="res://icon.svg"
+config/icon="res://Graphics/System/echoRatIcon.png"
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
 
 [dotnet]
 
 project/assembly_name="Echo Rat"
+
+[file_customization]
+
+folder_colors={
+"res://Audio/": "orange",
+"res://Graphics/": "orange",
+"res://Scenes/": "orange"
+}
