@@ -28,5 +28,6 @@ project/assembly_name="Echo Rat"
 folder_colors={
 "res://Audio/": "orange",
 "res://Graphics/": "orange",
-"res://Scenes/": "orange"
+"res://Scenes/": "orange",
+"res://Video/": "orange"
 }
