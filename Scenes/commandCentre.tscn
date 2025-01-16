@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://c5r1dyjot682s"]
+
+[node name="commandCentre" type="Node"]
+
+[node name="stage" type="Node" parent="."]
+
+[node name="menu" type="Node" parent="."]
+
+[node name="transition" type="Node" parent="."]
