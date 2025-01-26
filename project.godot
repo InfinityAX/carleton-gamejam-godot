@@ -34,3 +34,7 @@ folder_colors={
 "res://Graphics/": "orange",
 "res://Video/": "orange"
 }
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0

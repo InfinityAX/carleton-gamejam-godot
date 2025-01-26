@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://t4s6th6dqd4i"]
+
+[ext_resource type="Shape2D" uid="uid://ce6cw1ywdl2kg" path="res://Characters/RGB Rat/rgbRatCollisionShape.tres" id="1_plfpv"]
+[ext_resource type="Texture2D" uid="uid://b54o8v6if24po" path="res://Graphics/Characters/RGB Rat/psi_rgb_rat.png" id="2_61m08"]
+
+[node name="rgbRat" type="Node"]
+
+[node name="rgbRatChara" type="CharacterBody2D" parent="."]
+
+[node name="rgbRatCollision" type="CollisionShape2D" parent="rgbRatChara"]
+position = Vector2(35, 56)
+shape = ExtResource("1_plfpv")
+
+[node name="Sprite2D" type="Sprite2D" parent="rgbRatChara"]
+position = Vector2(-50, 0)
+texture = ExtResource("2_61m08")
