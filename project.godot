@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Echo Rat"
-run/main_scene="res://Scenes/commandCentre.tscn"
+run/main_scene="res://Data/Scenes/commandCentre.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
 config/icon="res://Graphics/System/echoRatIcon.png"
 
@@ -28,7 +28,9 @@ project/assembly_name="Echo Rat"
 
 folder_colors={
 "res://Audio/": "orange",
+"res://Characters/": "orange",
+"res://Data/": "orange",
+"res://Data/Scenes/": "orange",
 "res://Graphics/": "orange",
-"res://Scenes/": "orange",
 "res://Video/": "orange"
 }
