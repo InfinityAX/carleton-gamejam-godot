@@ -3,7 +3,8 @@ extends CharacterBody2D
 
 const SPEED = 1200.0
 #const JUMP_VELOCITY = -400.0
-
+@export var rgbRatSprite : Sprite2D
+@export var rgbRatHitbox : Node2D
 
 func _physics_process(delta: float) -> void:
 	# Add the gravity.
@@ -19,6 +20,12 @@ func _physics_process(delta: float) -> void:
 	var directionX := Input.get_axis("ui_left", "ui_right")
 	if directionX:
 		velocity.x = directionX * SPEED
+		if directionX == 1:
+			rgbRatSprite.set_flip_h(false)
+			rgbRatHitbox.set_position(Vector2i(-11,56))
+		elif directionX == -1:
+			rgbRatSprite.set_flip_h(true)
+			rgbRatHitbox.set_position(Vector2i(-89,56))
 	else:
 		velocity.x = move_toward(velocity.x, 0, SPEED)
 	
