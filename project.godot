@@ -32,6 +32,7 @@ folder_colors={
 "res://Data/": "orange",
 "res://Data/Scenes/": "orange",
 "res://Graphics/": "orange",
+"res://Objects/": "orange",
 "res://Video/": "orange"
 }
 
