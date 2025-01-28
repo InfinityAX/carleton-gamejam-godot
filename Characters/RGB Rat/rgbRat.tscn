@@ -1,16 +1,26 @@
-[gd_scene load_steps=3 format=3 uid="uid://t4s6th6dqd4i"]
+[gd_scene load_steps=6 format=3 uid="uid://t4s6th6dqd4i"]
 
+[ext_resource type="Script" path="res://Characters/RGB Rat/rgbRatMoving.gd" id="1_k2p2w"]
 [ext_resource type="Shape2D" uid="uid://ce6cw1ywdl2kg" path="res://Characters/RGB Rat/rgbRatCollisionShape.tres" id="1_plfpv"]
 [ext_resource type="Texture2D" uid="uid://b54o8v6if24po" path="res://Graphics/Characters/RGB Rat/psi_rgb_rat.png" id="2_61m08"]
+[ext_resource type="Script" path="res://Characters/RGB Rat/rgbRatCollision.gd" id="3_dmdor"]
+[ext_resource type="Script" path="res://Characters/RGB Rat/rgbRatSprite.gd" id="4_8g7f1"]
 
-[node name="rgbRat" type="Node"]
+[node name="Node2D" type="Node2D"]
 
-[node name="rgbRatChara" type="CharacterBody2D" parent="."]
+[node name="rgbRatChara2" type="CharacterBody2D" parent="."]
+script = ExtResource("1_k2p2w")
 
-[node name="rgbRatCollision" type="CollisionShape2D" parent="rgbRatChara"]
-position = Vector2(35, 56)
+[node name="rgbRatCollision" type="CollisionShape2D" parent="rgbRatChara2"]
+position = Vector2(-11, 56)
 shape = ExtResource("1_plfpv")
+script = ExtResource("3_dmdor")
 
-[node name="Sprite2D" type="Sprite2D" parent="rgbRatChara"]
+[node name="Sprite2D" type="Sprite2D" parent="rgbRatChara2"]
 position = Vector2(-50, 0)
 texture = ExtResource("2_61m08")
+script = ExtResource("4_8g7f1")
+
+[node name="Camera2D" type="Camera2D" parent="rgbRatChara2"]
+offset = Vector2(0, 20)
+zoom = Vector2(0.5, 0.5)

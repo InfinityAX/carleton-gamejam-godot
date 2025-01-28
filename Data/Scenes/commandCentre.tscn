@@ -1,8 +1,12 @@
-[gd_scene format=3 uid="uid://c5r1dyjot682s"]
+[gd_scene load_steps=2 format=3 uid="uid://c5r1dyjot682s"]
+
+[ext_resource type="PackedScene" uid="uid://cos801wyhc1ew" path="res://Data/Scenes/mazeStage.tscn" id="1_hoixk"]
 
 [node name="commandCentre" type="Node"]
 
 [node name="stage" type="Node" parent="."]
+
+[node name="mazeStage" parent="stage" instance=ExtResource("1_hoixk")]
 
 [node name="menu" type="Node" parent="."]
 
