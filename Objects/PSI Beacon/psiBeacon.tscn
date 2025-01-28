@@ -1,11 +1,17 @@
-[gd_scene load_steps=2 format=3 uid="uid://ddug5wl5lj33y"]
+[gd_scene load_steps=3 format=3 uid="uid://ddug5wl5lj33y"]
 
 [ext_resource type="SpriteFrames" uid="uid://c1wyc6u4trrwy" path="res://Objects/PSI Beacon/psiBeaconAnimated.tres" id="1_1rqjb"]
+[ext_resource type="Shape2D" uid="uid://djlegl3lubhho" path="res://Objects/PSI Beacon/psiBeaconCollision.tres" id="2_i1uc4"]
 
-[node name="psiBeacon" type="Node2D"]
-position = Vector2(300, 300)
+[node name="psiBeaconAnchor" type="Node2D"]
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+[node name="AnimatableBody2D" type="AnimatableBody2D" parent="."]
+position = Vector2(250, 250)
+
+[node name="psiBeaconSprite" type="AnimatedSprite2D" parent="AnimatableBody2D"]
 sprite_frames = ExtResource("1_1rqjb")
 animation = &"deactivated"
 autoplay = "deactivated"
+
+[node name="psiBeaconCollision" type="CollisionShape2D" parent="AnimatableBody2D"]
+shape = ExtResource("2_i1uc4")
