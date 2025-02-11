@@ -6,19 +6,20 @@
 
 [node name="rgbRatAnchor" type="Node2D"]
 
-[node name="rgbRatChara2" type="CharacterBody2D" parent="." node_paths=PackedStringArray("rgbRatSprite", "rgbRatHitbox")]
+[node name="charaterBody" type="CharacterBody2D" parent="." node_paths=PackedStringArray("rgbRatSprite", "rgbRatHitbox")]
+collision_layer = 2
 script = ExtResource("1_k2p2w")
-rgbRatSprite = NodePath("rgbRatSprite")
-rgbRatHitbox = NodePath("rgbRatCollision")
+rgbRatSprite = NodePath("sprite")
+rgbRatHitbox = NodePath("collision")
 
-[node name="rgbRatCollision" type="CollisionShape2D" parent="rgbRatChara2"]
+[node name="collision" type="CollisionShape2D" parent="charaterBody"]
 position = Vector2(-11, 56)
 shape = ExtResource("1_plfpv")
 
-[node name="rgbRatSprite" type="Sprite2D" parent="rgbRatChara2"]
+[node name="sprite" type="Sprite2D" parent="charaterBody"]
 position = Vector2(-50, 0)
 texture = ExtResource("2_61m08")
 
-[node name="playerCam" type="Camera2D" parent="rgbRatChara2"]
+[node name="playerCamera" type="Camera2D" parent="charaterBody"]
 offset = Vector2(0, 20)
 zoom = Vector2(0.5, 0.5)

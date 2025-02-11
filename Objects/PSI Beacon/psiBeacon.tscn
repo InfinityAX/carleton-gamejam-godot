@@ -1,17 +1,30 @@
-[gd_scene load_steps=3 format=3 uid="uid://ddug5wl5lj33y"]
+[gd_scene load_steps=5 format=3 uid="uid://ddug5wl5lj33y"]
 
 [ext_resource type="SpriteFrames" uid="uid://c1wyc6u4trrwy" path="res://Objects/PSI Beacon/psiBeaconAnimated.tres" id="1_1rqjb"]
+[ext_resource type="Script" path="res://Objects/PSI Beacon/psiBeaconScript.gd" id="1_nngqy"]
 [ext_resource type="Shape2D" uid="uid://djlegl3lubhho" path="res://Objects/PSI Beacon/psiBeaconCollision.tres" id="2_i1uc4"]
+[ext_resource type="Shape2D" uid="uid://olaqxkv0cu6a" path="res://Objects/PSI Beacon/psiBeaconPlayerDetector.tres" id="3_0k4a6"]
 
 [node name="psiBeaconAnchor" type="Node2D"]
 
-[node name="AnimatableBody2D" type="AnimatableBody2D" parent="."]
+[node name="animations" type="AnimatableBody2D" parent="."]
 position = Vector2(250, 250)
+script = ExtResource("1_nngqy")
 
-[node name="psiBeaconSprite" type="AnimatedSprite2D" parent="AnimatableBody2D"]
+[node name="sprites" type="AnimatedSprite2D" parent="animations"]
 sprite_frames = ExtResource("1_1rqjb")
 animation = &"deactivated"
 autoplay = "deactivated"
 
-[node name="psiBeaconCollision" type="CollisionShape2D" parent="AnimatableBody2D"]
+[node name="collisionShape" type="CollisionShape2D" parent="animations"]
 shape = ExtResource("2_i1uc4")
+
+[node name="playerNearbyDetector" type="Area2D" parent="animations"]
+collision_mask = 2
+
+[node name="detectorShape" type="CollisionShape2D" parent="animations/playerNearbyDetector"]
+shape = ExtResource("3_0k4a6")
+debug_color = Color(0.913482, 0.248694, 0.398861, 0.42)
+
+[connection signal="area_entered" from="animations/playerNearbyDetector" to="animations" method="_on_player_nearby_detector_area_entered"]
+[connection signal="body_entered" from="animations/playerNearbyDetector" to="animations" method="_on_player_nearby_detector_body_entered"]

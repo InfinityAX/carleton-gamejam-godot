@@ -16,9 +16,6 @@ metadata/_edit_group_ = true
 
 [node name="objects" type="Node" parent="."]
 
-[node name="psiBeaconOne" parent="objects" instance=ExtResource("2_4vcgf")]
-position = Vector2(500, 0)
-
 [node name="psiBeaconTwo" parent="objects" instance=ExtResource("2_4vcgf")]
 position = Vector2(1000, 0)
 
