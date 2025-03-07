@@ -10,10 +10,11 @@ config_version=5
 
 [application]
 
-config/name="Echo Rat"
-run/main_scene="res://commandCentre.tscn"
+config/name="UNNAMED"
+config/version="0.0.0"
+run/main_scene="res://gameMaster/bootLoader.tscn"
 config/features=PackedStringArray("4.4", "Forward Plus")
-config/icon="res://Graphics/System/echoRatIcon.png"
+config/icon="res://gameMaster/icon.png"
 
 [display]
 
@@ -33,7 +34,7 @@ folder_colors={
 "res://Enviroment/Scenes/": "orange",
 "res://Graphics/": "orange",
 "res://Objects/": "orange",
-"res://Video/": "orange"
+"res://Videos/": "orange"
 }
 
 [rendering]

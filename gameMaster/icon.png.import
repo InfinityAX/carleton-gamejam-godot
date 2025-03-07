@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cwho2sd2c31m8"
-path="res://.godot/imported/echoRatIcon.png-1f9d27e6de7853dcf1601ddc576d1f75.ctex"
+path="res://.godot/imported/icon.png-cee1cbbfc23aa1e4533ef52b92612ab5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Graphics/System/echoRatIcon.png"
-dest_files=["res://.godot/imported/echoRatIcon.png-1f9d27e6de7853dcf1601ddc576d1f75.ctex"]
+source_file="res://gameMaster/icon.png"
+dest_files=["res://.godot/imported/icon.png-cee1cbbfc23aa1e4533ef52b92612ab5.ctex"]
 
 [params]
 
