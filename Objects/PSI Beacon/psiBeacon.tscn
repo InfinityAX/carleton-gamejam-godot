@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://ddug5wl5lj33y"]
 
 [ext_resource type="SpriteFrames" uid="uid://c1wyc6u4trrwy" path="res://Objects/PSI Beacon/psiBeaconAnimated.tres" id="1_1rqjb"]
-[ext_resource type="Script" path="res://Objects/PSI Beacon/psiBeaconScript.gd" id="1_nngqy"]
+[ext_resource type="Script" uid="uid://qhr6lcen22xg" path="res://Objects/PSI Beacon/psiBeaconScript.gd" id="1_nngqy"]
 [ext_resource type="Shape2D" uid="uid://djlegl3lubhho" path="res://Objects/PSI Beacon/psiBeaconCollision.tres" id="2_i1uc4"]
 [ext_resource type="Shape2D" uid="uid://olaqxkv0cu6a" path="res://Objects/PSI Beacon/psiBeaconPlayerDetector.tres" id="3_0k4a6"]
 

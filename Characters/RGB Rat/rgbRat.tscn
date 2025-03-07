@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://t4s6th6dqd4i"]
 
-[ext_resource type="Script" path="res://Characters/RGB Rat/rgbRatScript.gd" id="1_k2p2w"]
+[ext_resource type="Script" uid="uid://denkhwifnjqio" path="res://Characters/RGB Rat/rgbRatScript.gd" id="1_k2p2w"]
 [ext_resource type="Shape2D" uid="uid://ce6cw1ywdl2kg" path="res://Characters/RGB Rat/rgbRatCollisionShape.tres" id="1_plfpv"]
 [ext_resource type="Texture2D" uid="uid://b54o8v6if24po" path="res://Graphics/Characters/RGB Rat/psi_rgb_rat.png" id="2_61m08"]
 
